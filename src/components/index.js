@@ -4,6 +4,7 @@ import Transcribing from './Transcribing'
 import Translation from './Translation'
 import Footer from './Footer'
 import Transcription from './Transcription'
+import FileDisplay from './FileDisplay'
 
 export {
     Header,
@@ -11,5 +12,6 @@ export {
     Transcribing,
     Transcription,
     Translation,
-    Footer
+    Footer,
+    FileDisplay
 }
