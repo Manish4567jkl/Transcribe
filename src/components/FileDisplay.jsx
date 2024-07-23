@@ -20,10 +20,11 @@ function FileDisplay({handleAudioReset,file,audioStream}) {
           >
             Reset 
           </button>
-          <button className='specialBtn px-4 py-2 rounded-lg text-violet-400'>
+          <button className='specialBtn px-4 py-2 rounded-lg text-violet-400 flex items-center gap-2'>
             <p>
               Transcribe
             </p>
+            <i className="fa-solid fa-pen-nib"></i>
           </button>
         </div>
     </main>
