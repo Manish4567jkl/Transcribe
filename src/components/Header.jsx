@@ -1,17 +1,16 @@
 import React from 'react'
 
-function Header() {
-  return (
-    <header className='flex items-center justify-between gap-4 p-4'>
-        <h1 className='text-5xl font-medium'>
-          Trans<span className='bold text-violet-400 text-5xl'>Scribe</span>
-        </h1>
-        <button className='flex items-center gap-2 px-4 py-2 rounded-md specialBtn text-violet-400'>
-          <p>New</p>
-          <i className="fa-solid fa-plus"></i>
-        </button>
-    </header>
-  )
+export default function Header() {
+    return (
+        <header className='flex items-center justify-between gap-4 p-4'>
+            <a href="/"><h1 className='font-medium'>Tran<span className='text-violet-400 bold'>Scribe</span></h1></a>
+            <div className='gap-4 flex items-center '>
+               
+                <a href="/" className='flex items-center gap-2 specialBtn px-3 py-2 rounded-lg text-violet-400'>
+                    <p>New</p>
+                    <i className="fa-solid fa-plus"></i>
+                </a>
+            </div>
+        </header>
+    )
 }
-
-export default Header

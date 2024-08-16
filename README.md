@@ -1,3 +1,2 @@
-# Transcribe
- 
- ## This is a transcription app , in which we can record our voice or upload an audio file to transcribe , which can be further translated into shitton of languages .
+# free-scribe
+ React web based transcription & translation app that uses web workers to run ML models in the browser
